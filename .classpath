@@ -69,5 +69,6 @@
 	<classpathentry kind="lib" path="/home/abhi/Downloads/My-Spring-Code-Library/lib/spring-websocket-5.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/home/abhi/Downloads/My-Spring-Code-Library/lib/spring-websocket-5.0.3.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="/home/abhi/Downloads/My-Spring-Code-Library/lib/spring-websocket-5.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/home/abhi/Downloads/javax.annotation-api-1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

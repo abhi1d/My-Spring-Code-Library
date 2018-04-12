@@ -1,5 +1,8 @@
 package practice1.codeBase;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
@@ -33,6 +36,18 @@ public class TennisCoachImpl implements CoachImpl {
 		fortuneService = theFortuneService;
 	}
 	*/
+	
+	// post constructor method
+	@PostConstruct
+	public void doConstructor() {
+		System.out.println("post contruct method");
+	}
+	
+	@PreDestroy
+	public void doDestructo() {
+		System.out.println("pre destruct method");
+	}
+	
 	
 	public String getDailyWorkout() {
 		return "Practice your backhand volley";
