@@ -3,7 +3,7 @@ package Autowiring.codeBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("tennisCoach")
+@Component
 public class TennisCoach implements Coach{
 
 	// field injection
